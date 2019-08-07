@@ -4,5 +4,15 @@
   "description": "project for controlling ad exposure ",
   "main": "index.js",
   "author": "JooYoungHeo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
