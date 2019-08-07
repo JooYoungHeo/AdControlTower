@@ -14,6 +14,8 @@
     "sequelize-cli": "^5.5.0"
   },
   "devDependencies": {
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-register": "^6.26.0",
     "nodemon": "^1.19.1"
   }
 }
