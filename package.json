@@ -1,0 +1,8 @@
+{
+  "name": "AdControlTower",
+  "version": "1.0.0",
+  "description": "project for controlling ad exposure ",
+  "main": "index.js",
+  "author": "JooYoungHeo",
+  "license": "MIT"
+}
