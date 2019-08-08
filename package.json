@@ -6,7 +6,8 @@
   "author": "JooYoungHeo",
   "license": "MIT",
   "scripts": {
-    "set:db": "./node_modules/.bin/sequelize db:migrate && ./node_modules/.bin/sequelize db:seed:all"
+    "set:db": "./node_modules/.bin/sequelize db:migrate && ./node_modules/.bin/sequelize db:seed:all",
+    "dev": "./node_modules/.bin/nodemon --exec babel-node ./src/server/main.js --watch src"
   },
   "dependencies": {
     "koa": "^2.7.0",
