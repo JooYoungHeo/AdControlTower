@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Sequelize from 'sequelize';
-import config from '../config';
+import {mysql as config} from '../config';
 
 const basename = path.basename(__filename);
 const db = {};
