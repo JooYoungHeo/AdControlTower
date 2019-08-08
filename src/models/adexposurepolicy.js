@@ -6,7 +6,8 @@ module.exports = (sequelize, DataTypes) => {
     rate: DataTypes.DECIMAL(4,3),
     level: DataTypes.TINYINT
   }, {
-    tableName: 'ad_exposure_policy'  
+    tableName: 'ad_exposure_policy',
+    timestamps: false
   });
   AdExposurePolicy.associate = function(models) {
     // associations can be defined here

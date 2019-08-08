@@ -4,7 +4,8 @@ module.exports = (sequelize, DataTypes) => {
     title: DataTypes.STRING,
     content: DataTypes.STRING
   }, {
-    tableName: 'news'
+    tableName: 'news',
+    timestamps: false
   });
   News.associate = function(models) {
     // associations can be defined here
