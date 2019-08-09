@@ -10,7 +10,8 @@
     "set:redis": "node set:redis:data.js",
     "dev": "./node_modules/.bin/nodemon --exec babel-node ./src/server/main.js --watch src",
     "build": "./node_modules/.bin/babel src --out-dir build",
-    "start": "./node_modules/.bin/pm2 start ./build/server/main.js --name triple:ad"
+    "start": "./node_modules/.bin/pm2 start ./build/server/main.js --name triple:ad",
+    "ad-tower": "yarn install && yarn run build && yarn run set:db && yarn run set:redis && yarn run start"
   },
   "dependencies": {
     "ioredis": "^4.14.0",
