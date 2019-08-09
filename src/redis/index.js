@@ -1,4 +1,4 @@
-import Redis from 'redis';
+import Redis from 'ioredis';
 import {redis} from '../config';
 
-module.exports = Redis.createClient(redis.port, redis.host);
+module.exports = new Redis(redis.port, redis.host);
