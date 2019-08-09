@@ -2,7 +2,7 @@
 
 ### 프로젝트 시작
 ```
-* properties.json 빈칸 정보 입력 (db , redis)
+* properties.json 빈칸 정보 입력 (db : username , password)
 * $ yarn run ad-tower
 ```
 
