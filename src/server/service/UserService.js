@@ -12,7 +12,7 @@ export const getUserReadRate = async (userId, date) => {
     }
 };
 
-// 유저 뉴스 or 광고 읽은 횟수 ++
+// 유저 뉴스 or 광고 읽은 횟수 ++ (일별 기록))
 export const incrementUserRead = async (userId, type, date) => {
     try {
         return await redis.incr(`user:${userId}:${type}.${date}`);
