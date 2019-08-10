@@ -4,6 +4,7 @@
 ```
 * properties.json 빈칸 정보 입력 (db : username , password)
 * $ yarn run ad-tower
+* $ curl -X GET "http://localhost:3001/article?userId={id}"
 ```
 
 ### Article Api
